@@ -5,9 +5,9 @@ function Navbar(){
 
     const [menu, setMenu] = useState(false)
   return (
-    <div className='text-white flex justify-between items-center h-20 px-4 max-w-[1240px] mx-auto'>
-        <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
-        <ul className='hidden md:flex'>
+    <div className='text-white flex justify-between items-center h-20 px-4 max-w-[1240px] mx-auto '>
+        <h1 className='w-full text-3xl font-bold text-[#00df9a] '>REACT.</h1>
+        <ul className='hidden md:flex cursor-pointer'>
             <li className='p-4'>Home</li>
             <li className='p-4'>Company</li>
             <li className='p-4'>Resources</li>
@@ -23,7 +23,7 @@ function Navbar(){
         <div className={`fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900  bg-[#000300] pl-5 ${menu?'block':'left-[-100%]'} ease-in-out transition-all duration-300`}>
         <h1 className='text-3xl w-full m-4 text-[#00df9a] font-bold'>REACT.</h1>
 
-        <ul className='uppercase p-4'>
+        <ul className='uppercase p-4 cursor-pointer'>
             <li className='p-4 border-b border-gray-600'>Home</li>
             <li className='p-4 border-b border-gray-600 '>Company</li>
             <li className='p-4 border-b border-gray-600 '>Resources</li>
