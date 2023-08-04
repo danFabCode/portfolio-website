@@ -1,8 +1,6 @@
 import React from 'react'
-// import Double from '../assets/double.png'
 import Laptop from '../assets/laptop.jpg'
-// import Single from '../assets/single.png'
-// import Triple from '../assets/triple.png'
+
 
 function Analytics(){
   return (
