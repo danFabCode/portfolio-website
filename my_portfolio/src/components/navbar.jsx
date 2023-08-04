@@ -20,7 +20,7 @@ function Navbar(){
             <AiOutlineClose onClick={()=>setMenu(false)} className={menu?'block':'hidden'} size={25}/>
         </div>
 
-        <div className={`fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900  bg-[#000300] pl-5 ${menu?'block':'left-[-100%]'} ease-in-out transition-all duration-300`}>
+        <div className={`fixed left-0 top-0 w-[50%] h-full border-r border-r-gray-900  bg-[#000300] pl-5 ${menu?'block':'left-[-100%]'} ease-in-out transition-all duration-300`}>
         <h1 className='text-3xl w-full m-4 text-[#00df9a] font-bold'>REACT.</h1>
 
         <ul className='uppercase p-4 cursor-pointer'>
