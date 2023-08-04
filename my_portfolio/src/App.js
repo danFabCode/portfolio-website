@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Newsletter from './components/Newsletter';
 import Navbar from './components/navbar';
 import SelectionCard from './components/SelectionCard';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Analytics/>
       <Newsletter/>
       <SelectionCard/>
+      <Footer/>
     </div>
   );
 }

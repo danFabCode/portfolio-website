@@ -1,10 +1,11 @@
-import Double from '../src/assets/double.png'
+import Double from '../src/assets/double.png';
 // import Laptop from '../assets/laptop.jpg'
-import Single from '../src/assets/single.png'
-import Triple from '../src/assets/triple.png'
+import Single from '../src/assets/single.png';
+import Triple from '../src/assets/triple.png';
 
 
 const CardData = [
+    
     {
         icon: Single,
         title:'Single User',
@@ -40,7 +41,7 @@ const CardData = [
         cg:'#030f65'
 
     }
-]
+    ]
 
+export default CardData;
 
-export default CardData

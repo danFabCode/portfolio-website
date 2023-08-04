@@ -1,9 +1,10 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+import NavData from '../NavData'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
 
 function Navbar(){
 
-    const [menu, setMenu] = useState(false)
+    const [menu, setMenu] = useState(false);
   return (
     <div className='text-white flex justify-between items-center h-20 px-4 max-w-[1240px] mx-auto '>
         <h1 className='w-full text-3xl font-bold text-[#00df9a] '>REACT.</h1>
@@ -24,11 +25,16 @@ function Navbar(){
         <h1 className='text-3xl w-full m-4 text-[#00df9a] font-bold'>REACT.</h1>
 
         <ul className='uppercase p-4 cursor-pointer'>
-            <li className='p-4 border-b border-gray-600'>Home</li>
+            {NavData.map((navdata,index)=>(
+                <li className={` p-4 border-b border-gray-600 flex items-center gap-2 active:bg-[#00df9a]`}>{navdata.icon} {navdata.title}</li>
+                
+            ))}
+          
+{/*             
             <li className='p-4 border-b border-gray-600 '>Company</li>
             <li className='p-4 border-b border-gray-600 '>Resources</li>
             <li className='p-4 border-b border-gray-600 '>About</li>
-            <li className='p-4'>Contact</li>
+            <li className='p-4'>Contact</li> */}
         </ul>
         </div>
        

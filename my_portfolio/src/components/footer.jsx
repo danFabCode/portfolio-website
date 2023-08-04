@@ -22,42 +22,42 @@ function Footer(){
  
                 </div>
                 <div className='w-full col-span-2'>
-                    <div className='w-full grid grid-cols-4'>
+                    <div className='w-full grid grid-cols-4 gap-8'>
                         <div>
                         <h5 className='font-bold text-gray-600'>Solutions</h5>
                             <ul>
-                                <li className='py-2 px-1 cursor-pointer'>Analytics</li>
-                                <li className='py-2 px-1 cursor-pointer'>Marketing</li>
-                                <li className='py-2 px-1 cursor-pointer'>Commerce</li>
-                                <li className='py-2 px-1 cursor-pointer'>Insights</li>
+                                <li className='py-2  cursor-pointer'>Analytics</li>
+                                <li className='py-2  cursor-pointer'>Marketing</li>
+                                <li className='py-2  cursor-pointer'>Commerce</li>
+                                <li className='py-2  cursor-pointer'>Insights</li>
                             </ul>
                         </div>
                         <div>
                         <h5 className='font-bold text-gray-600'>Supports</h5>
                             <ul>
-                                <li className='py-2 px-1 cursor-pointer'>Pricing</li>
-                                <li className='py-2 px-1 cursor-pointer'>Documentation</li>
-                                <li className='py-2 px-1 cursor-pointer'>Guides</li>
-                                <li className='py-2 px-1 cursor-pointer'>Api Status</li>
+                                <li className='py-2  cursor-pointer'>Pricing</li>
+                                <li className='py-2  cursor-pointer'>Documentation</li>
+                                <li className='py-2  cursor-pointer'>Guides</li>
+                                <li className='py-2  cursor-pointer'>Api Status</li>
                             </ul>    
                         </div>
                         <div>
                         <h5 className='font-bold text-gray-600'>Company</h5>
                         <ul>
-                            <li className='py-2 px-1 cursor-pointer'>About</li>
-                            <li className='py-2 px-1 cursor-pointer'>Blog</li>
-                            <li className='py-2 px-1 cursor-pointer'>Jobs</li>
-                            <li className='py-2 px-1 cursor-pointer'>Press</li>
-                            <li className='py-2 px-1 cursor-pointer'>Partners</li>
+                            <li className='py-2  cursor-pointer'>About</li>
+                            <li className='py-2  cursor-pointer'>Blog</li>
+                            <li className='py-2  cursor-pointer'>Jobs</li>
+                            <li className='py-2  cursor-pointer'>Press</li>
+                            <li className='py-2  cursor-pointer'>Partners</li>
                         </ul>
                         </div>
                         <div>
                             <h5 className='font-bold text-gray-600'>Legal</h5>
                             <ul>
-                                <li className='py-2 px-1'>Claims</li>
-                                <li className='py-2 px-1'>Policy</li>
-                                <li className='py-2 px-1'>Terms</li>
-                                <li className='py-2 px-1'>Insights</li>
+                                <li className='py-2 '>Claims</li>
+                                <li className='py-2 '>Policy</li>
+                                <li className='py-2 '>Terms</li>
+                                <li className='py-2 '>Insights</li>
 
                             </ul>
                         </div>
